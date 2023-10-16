@@ -1,0 +1,98 @@
+/* Add your CSS styles here */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the page */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: Gainsboro;
+  }
+  
+  h1 {
+    background-color: skyblue;
+    color: White;
+    padding: 18px;
+    margin: 0;
+  }
+  
+  /* Movie list styles */
+  #films {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+    padding: 0;
+    background-color: White;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  #films li {
+    padding: 10px;
+    border-bottom: 1px solid LightGrey;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #films li:hover {
+    background-color: DimGray;
+    color: White;
+  }
+  
+  /* Movie details styles */
+  #movie-details {
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    background-color: White;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 35%;
+  }
+  
+  #movie-details img {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: lightblue;
+    color: White;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: Black;
+  }
+  
+  /* Additional styles for "Sold Out" films */
+  li.sold-out {
+    background-color: red;
+    color: White;
+  }
+  
+  /* Stylish styling for the Buy Ticket button */
+  #buy-ticket {
+    background-color: SteelBlue;
+    color: White;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#buy-ticket:hover {
+  background-color: RoyalBlue;
+}
+  
+  
